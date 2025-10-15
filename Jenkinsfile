@@ -53,7 +53,7 @@ pipeline {
 
         // กำหนดค่า Docker Hub credentials ID ที่ตั้งค่าไว้ใน Jenkins
         DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-cred'
-        DOCKER_REPO               = "oum100/express-docker-app-jenkins"
+        DOCKER_REPO               = "oum100/express-docker-app"
 
         // กำหนดค่าสำหรับจำลอง DEV environment บน Local
         DEV_APP_NAME              = "express-app-dev"
